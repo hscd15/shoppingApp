@@ -4,7 +4,7 @@
   The FriendsCtrl pulls data from the Friends service (service.js)
   The Friends service returns an array of friend data
 -->
-<ion-view view-title="Store Near You">
+<ion-view cache-view="false" view-title="Store Near You">
     <ion-content class="padding">
         <ion-list>
             <ion-item ng-repeat="store in list.stores" class="clearFix" data-state="none">

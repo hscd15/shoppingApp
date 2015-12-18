@@ -59,11 +59,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
                 }
             }
         })
-        .state('tab.searchStore', {
-            url: '/chats/searchStore',
+        .state('tab.findItem', {
+            url: '/findItem1',
             views: {
-                'tab-chats': {
-                    templateUrl: 'templates/tab-search-store.html',
+                'tab-find-item': {
+                    templateUrl: 'templates/tab-find-item.html',
                     controller: 'ItemCtrl'
                 }
             }
